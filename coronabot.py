@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 import time
 
+# County Kaiserslautern is selected for showcase reasons
 
 #---- Global tracking of cases and comparing to previous day
 cases_yesterday = {}
