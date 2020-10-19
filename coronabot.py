@@ -112,7 +112,7 @@ def data2textandvoice(county,data):
     if str(countydic["deaths"]) == "1":
         voiceline += "Insgesamt gab es genau einen Todesfall"
     elif str(countydic["deaths"]) == "0":
-        voiceline += "Insgesamt gab es keinen einzigen Todesfall"
+        voiceline += "Insgesamt gab es gar keinen Todesfall"
     else:
         voiceline += "Insgesamt gab es"+str(countydic["deaths"]) + " Todesfälle"
     return [message,voiceline]
