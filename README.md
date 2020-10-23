@@ -34,7 +34,7 @@ Enter your parameters in the `settings.py`-file. Then run in a terminal: `python
 - Does the script halt? \
 &rarr; Not by design. To stop the script you have to abort the task manually. For permanent use on a Raspberry Pi it might be useful to use the tool "screen". This makes it possible to keep the script running even if you are logged out.
 - The sent data is outdated. Where does this error come from? \
-&rarr; The RKI database doesn't always give you the most recent data. You may have to send a request multiple times for a few minutes to get an current data record. One subroutine in `main.py` should already take care of this issue.
+&rarr; The RKI database doesn't always give you the most recent data. You may have to send a request multiple times for a few minutes to get an current data record. The permanent update mode does not have this issue.
 - Is it necessary to stay connected to the internet all the time? \
 &rarr; For the mode that sends data as soon as it is available it is obviously necessary to be online all the time. If you just send data at a set time, it's just necessary to stay online the hour before. Say you want send data at 11 a.m., make sure the host system is online at 10 a.m. until the messages are sent. The hour between is needed to check if the received data is up to date.
 
