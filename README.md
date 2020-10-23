@@ -19,7 +19,6 @@ Enter your parameters in the `settings.py`-file. Then run in a terminal: `python
 ## Requirements for broadcasting to a Telegram Channel
 - Admin access to Telegram Channel
 - Knowledge about Telegram Channel ID
-- Working Telegram Bot with API-Token
 - Bot in Telegram Channel with admin acces&rarr;s
 
 ## Requirements for voice output
