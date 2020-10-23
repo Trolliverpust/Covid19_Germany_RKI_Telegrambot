@@ -14,7 +14,7 @@ Enter your parameters in the `settings.py`-file. Then run in a terminal: `python
 
 ## Basic requirements
 - Host platform is permanently connected to the internet
-- Working Telegram Bot with API-Token
+- API-Token for Telegram Bot (german tutorial: https://statisquo.de/2020/08/21/telegram-bot-bauen-in-10-minuten-mit-python/)
 
 ## Requirements for broadcasting to a Telegram Channel
 - Admin access to Telegram Channel
