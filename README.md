@@ -20,7 +20,7 @@ Enter your parameters in the `settings.py`-file. Then run in a terminal: `python
 - Admin access to Telegram Channel
 - Knowledge about Telegram Channel ID
 - Working Telegram Bot with API-Token
-- Bot in Telegram Channel with admin access
+- Bot in Telegram Channel with admin acces&rarr;s
 
 ## Requirements for voice output
 - Audio output hardware ready to go
@@ -28,15 +28,15 @@ Enter your parameters in the `settings.py`-file. Then run in a terminal: `python
 - mpg321 package installed (ask your default linux package manager)
 
 ## FAQ
-- How do i change the settings of the scipt?
+- How do i change the settings of the scipt? \
 &rarr; Edit the `settings.py`-file, then restart `main.py`
-- Can i set multiple counties as options?
+- Can i set multiple counties as options? \
 &rarr; Yes. Just add them to the counties list in `settings.py`, then restart `main.py`.
-- Does the script halt?
+- Does the script halt? \
 &rarr; Not by design. To stop the script you have to abort the task manually. For permanent use on a Raspberry Pi it might be useful to use the tool "screen". This makes it possible to keep the script running even if you are logged out.
-- The sent data is outdated. Where does this error come from?
+- The sent data is outdated. Where does this error come from? \
 &rarr; The RKI database doesn't always give you the most recent data. You may have to send a request multiple times for a few minutes to get an current data record. One subroutine in `main.py` should already take care of this issue.
-- Is it necessary to stay connected to the internet all the time?
+- Is it necessary to stay connected to the internet all the time? \
 &rarr; For the mode that sends data as soon as it is available it is obviously necessary to be online all the time. If you just send data at a set time, it's just necessary to stay online the hour before. Say you want send data at 11 a.m., make sure the host system is online at 10 a.m. until the messages are sent. The hour between is needed to check if the received data is up to date.
 
 ## Known Issues
