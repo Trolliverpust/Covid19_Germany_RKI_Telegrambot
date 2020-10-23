@@ -36,7 +36,7 @@ Enter your parameters in the `settings.py`-file. Then run in a terminal: `python
 - The sent data is outdated. Where does this error come from? \
 &rarr; The RKI database doesn't always give you the most recent data. You may have to send a request multiple times for a few minutes to get an current data record. The permanent update mode does not have this issue.
 - Is it necessary to stay connected to the internet all the time? \
-&rarr; For the mode that sends data as soon as it is available it is obviously necessary to be online all the time. If you just send data at a set time, it's just necessary to stay online the hour before. Say you want send data at 11 a.m., make sure the host system is online at 10 a.m. until the messages are sent. The hour between is needed to check if the received data is up to date.
+&rarr; For the mode that sends data as soon as it is available it is obviously necessary to be online all the time. If you just send data at a set time, it's just necessary to stay online the hour before. Say you want send data at 11 a.m., make sure the host system is online at 10 a.m. until the messages are sent. The hour between is needed to check if the received data is up to date. Internet is also required for voice output.
 
 ## Known Issues
 - When started, the script looks for a backup file. If the file is already there, it is assumed to be a backup file that contains at least data from the previous day. So if you run the script for a day, then turn it off for a several days and then restart it, the script does not calculate the new cases between this day and the day before, but the cases between this day and the day the backup file was last edited.
